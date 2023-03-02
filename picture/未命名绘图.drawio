@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:16:06.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Du4Lk6uhOS7kmV_aFWGj" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="tJM_PB3CmArQ39CARQP1">
+    <mxGraphModel dx="2021" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-60" target="-Z3dnTV2WW1t5ZSWNaW7-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-60" value="存量数据追补" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="580" width="132" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-63" target="-Z3dnTV2WW1t5ZSWNaW7-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-63" target="-Z3dnTV2WW1t5ZSWNaW7-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-63" target="-Z3dnTV2WW1t5ZSWNaW7-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-63" value="扫描全局SchemaDefinition" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="121.5" y="580" width="132" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-65" target="-Z3dnTV2WW1t5ZSWNaW7-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-65" value="记录schemaId类型" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366.5" y="530" width="132" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-67" value="schemaId -&amp;gt; SchemaType" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="535" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-73" target="-Z3dnTV2WW1t5ZSWNaW7-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-73" value="解析SchemaDefinition，记录它所有的引用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366.5" y="620" width="133.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-75" value="schemaId&amp;nbsp; &amp;nbsp; schemaType&lt;br&gt;&amp;nbsp;refSchemaId&amp;nbsp; &amp;nbsp;refSchemaTyoe" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="625" width="187.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-78" value="schema类型表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="610" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-79" value="schema引用表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="603.75" y="600" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-80" target="-Z3dnTV2WW1t5ZSWNaW7-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-80" target="-Z3dnTV2WW1t5ZSWNaW7-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-80" target="-Z3dnTV2WW1t5ZSWNaW7-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-80" value="Schema变更" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="870" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-81" target="-Z3dnTV2WW1t5ZSWNaW7-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-81" value="DELETE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="141.5" y="970" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-83" value="1、清除当前schema在schema类型表的有关记录&lt;br&gt;2、清除当前schema在schema引用表的有关记录" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="329.5" y="970" width="288.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-86" target="-Z3dnTV2WW1t5ZSWNaW7-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-86" target="-Z3dnTV2WW1t5ZSWNaW7-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-86" value="CREATE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="141.5" y="770" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-88" value="1、记录当前Schema的类型到schema类型表&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、记录当前Schema的所有引用到schema引用表&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330.75" y="771.25" width="287.25" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-91" target="-Z3dnTV2WW1t5ZSWNaW7-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-91" value="UPDATE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="141.5" y="870" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-95" value="1、清除当前schema在schema引用表的有关记录&lt;br&gt;2、记录当前Schema的所有引用到schema引用表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="329.5" y="870" width="296.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-100" target="-Z3dnTV2WW1t5ZSWNaW7-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-100" value="统一Schema删除校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-74" y="1117.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-102" target="-Z3dnTV2WW1t5ZSWNaW7-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-102" value="检索引用关系表，如果存在引用则不能删除" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1112.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-104" value="为了便捷删除，这里可以推出引用关系图" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1110" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-Z3dnTV2WW1t5ZSWNaW7-106" target="-Z3dnTV2WW1t5ZSWNaW7-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-106" value="统一Schema引用查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-74" y="1267.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-108" value="查询引用关系表，得出当前Schema被哪些对象引用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="141.5" y="1260" width="190" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-Z3dnTV2WW1t5ZSWNaW7-110" value="之所以依赖schema类型表，是因为我们当前系统无法根据一个id识别其是否是一个有效的schema实体，也不知道它的类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="430" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
